@@ -1,8 +1,8 @@
 # Skeleton Practice
 
 ## start a simple backend node server for practice
-✅ initialize node:
-```npm init```
+✅ initialize node:<br/>
+```npm init```<br/>
 ✅ install basic middleware:
 ```npm install express ejs```
 ✅ install nodemon server in dev dependencies:
@@ -14,7 +14,7 @@
     "dev": "nodemon server.js"
   }```
 ✅ start dev nodemon server 
-```npm run dev```
+```npm run dev```<br/>
 
 ## setup serverside index and error pages and routes with background image
 ✅ router files:
