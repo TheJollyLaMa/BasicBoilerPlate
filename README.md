@@ -8,10 +8,7 @@
 ✅ install nodemon server in dev dependencies:<br/>
 ```npm install nodemon --save-dev```<br/>
 ✅ add start scripts to package.json:<br/>
-```scripts": {
-    "test": "test",
-    "start": "node server.js",
-    "dev": "nodemon server.js"}```<br/>
+```scripts": {"test": "test", "start": "node server.js","dev": "nodemon server.js"}```<br/>
 ✅ start dev nodemon server:<br/>
 ```npm run dev```<br/>
 <br/>
