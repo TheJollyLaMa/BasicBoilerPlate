@@ -1,9 +1,35 @@
-# HTML5_TUT
+# Skeleton Practice
 
 ## start a simple backend node server for practice
-✅ npm init
-✅ npm install express ejs
-✅ npm install nodemon --save-dev
+✅ initialize node:
+"""npm init"""
+✅ install basic middleware:
+"""npm install express ejs"""
+✅ install nodemon server in dev dependencies:
+"""npm install nodemon --save-dev"""
+✅ add start scripts to package.json:  
+""""scripts": {
+    "test": "test",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  }"""
+✅ start dev nodemon server 
+"""npm run dev"""
 
-## run through some html5 tutorials to update html5 knowledge
-🕳 https://www.youtube.com/watch?v=9gTw2EDkaDQ
+## setup serverside index and error pages and routes with background image
+✅ router files:
+  """/routes"""
+✅ view pages:
+  """/views"""
+  
+## setup favicon and public route
+  
+  ✅ ####add a favicon.ico file in this directory:
+  """/public/img/icons/favicon.ico"""
+  
+  ✅ ####add the link to the index.html head
+  """<link rel="icon" type="image/x-icon" href="../public/img/icons/favicon.ico" />"""
+  
+  ✅ ####make the public route in index.js
+  """app.use('/public/index.html', express.static('public/index.html'));
+app.use('/public', publicRouter);""""
