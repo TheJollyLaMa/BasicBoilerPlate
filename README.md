@@ -19,11 +19,10 @@
   ```/views```<br/>
 <br/>
 ## setup favicon and public route
-  
-  ✅ #### add a favicon.ico file in this directory:<br/>
+  #### ✅ add a favicon.ico file in this directory:<br/>
   ```/public/img/icons/favicon.ico```<br/>  
-  ✅ #### add the link to the index.html head<br/>
+  #### ✅ add the link to the index.html head<br/>
   ```<link rel="icon" type="image/x-icon" href="../public/img/icons/favicon.ico" />```<br/>
-  ✅ #### make the public route in index.js<br/>
+  #### ✅ make the public route in index.js<br/>
   ```app.use('/public/index.html', express.static('public/index.html')); app.use('/public', publicRouter);```<br/>
   
